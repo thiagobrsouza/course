@@ -33,7 +33,6 @@ public class User implements Serializable {
 	private List<Order> orders = new ArrayList<>();
 
 	public User() {
-		super();
 	}
 
 	public User(Long id, String name, String email, String phone, String password) {
